@@ -36,4 +36,13 @@ public class MyUser {
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
+    public MyUser(MyUser user) {
+        this.userId = user.getUserId();
+        this.firstName = user.getFirstName();
+        this.lastName = user.getLastName();
+        this.password = user.getPassword();
+        this.username = user.getUsername();
+        this.email = user.getEmail();
+        this.roles = user.getRoles();
+    }
 }

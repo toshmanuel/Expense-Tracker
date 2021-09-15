@@ -11,6 +11,14 @@
     <packaging>jar</packaging>
     <artifactId>web</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.expensetracker</groupId>
+            <artifactId>services</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
