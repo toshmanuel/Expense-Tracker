@@ -25,6 +25,9 @@
         <fileset id="fileset" name="SecurityConfig" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/io/expensetracker/SecurityConfig.java</file>
         </fileset>
+        <fileset id="fileset2" name="ConfigurationClass" removed="false">
+          <file>file://$MODULE_DIR$/../services/src/main/java/io/expensetracker/config/ConfigurationClass.java</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
@@ -41,6 +44,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="services" />
     <orderEntry type="module" module-name="data" />
+    <orderEntry type="library" name="Maven: org.modelmapper:modelmapper:2.3.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.7" level="project" />

@@ -1,5 +1,6 @@
-package io.expensetracker.model.user;
+package io.expensetracker;
 
+import io.expensetracker.model.user.MyUser;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

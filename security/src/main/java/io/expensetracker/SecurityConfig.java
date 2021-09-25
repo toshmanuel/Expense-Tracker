@@ -1,6 +1,5 @@
 package io.expensetracker;
 
-import io.expensetracker.services.UserDetailServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.authentication.AuthenticationManager;
