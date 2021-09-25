@@ -5,9 +5,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
-@EntityScan(basePackages = {"io.expensetracker.*"})
-@ComponentScan(basePackages = {"io.expensetracker.*"})
-@EnableJpaRepositories(basePackages = {"io.expensetracker.*"})
+
+@EntityScan(basePackages = {"io.expensetracker.model.*"})
+@ComponentScan(basePackages = {"io.expensetracker.services"})
+@EnableJpaRepositories(basePackages = {"io.expensetracker.repository.user"})
 @SpringBootApplication
 public class ExpenseTrackerApplication {
     public static void main(String[] args) {

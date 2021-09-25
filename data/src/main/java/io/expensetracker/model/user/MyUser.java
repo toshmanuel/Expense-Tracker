@@ -12,6 +12,7 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 public class MyUser {
 
     @Id
@@ -34,7 +35,7 @@ public class MyUser {
     private String lastName;
 
     @Enumerated(EnumType.STRING)
-    private Set<Role> roles;
+    private Role roles;
 
     public MyUser(MyUser user) {
         this.userId = user.getUserId();
