@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.ReadOnlyProperty;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Data
 @AllArgsConstructor
